@@ -18,7 +18,7 @@ each result as it comes in.
 # Release info for Threadpool
 
 name = 'threadpool'
-version = '1.2.7'
+version = '1.3.0'
 description = 'Easy to use object-oriented thread pool framework'
 keywords = 'threads, design pattern, thread pool'
 author = 'Christopher Arndt'
@@ -35,6 +35,7 @@ classifiers = [
   'Operating System :: Microsoft :: Windows',
   'Operating System :: POSIX',
   'Operating System :: MacOS :: MacOS X',
-  'Programming Language :: Python',
+  'Programming Language :: Python :: 2',
+  'Programming Language :: Python :: 3',
   'Topic :: Software Development :: Libraries :: Python Modules'
 ]

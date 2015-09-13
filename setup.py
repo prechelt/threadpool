@@ -2,7 +2,11 @@
 
 from setuptools import setup
 
-execfile('src/release.py')
+# old: execfile('src/release.py')
+# new:
+with open('src/release.py') as f:
+    code = compile(f.read(), 'src/release.py', 'exec')
+    exec(code)
 
 setup(
     name=name,
